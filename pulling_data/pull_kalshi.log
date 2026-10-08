@@ -1,0 +1,50 @@
+Pulling 15 paired markets (kalshi)
+
+[kalshi 1/15] POL-1 PRESPARTYAK-24-R
+    trades already on disk, skipping
+    candles already on disk, skipping
+[kalshi 2/15] POL-2 PRESPARTYRI-24-R
+    trades already on disk, skipping
+    candles already on disk, skipping
+[kalshi 3/15] POL-3 PRESPARTYNE-24-D
+    trades already on disk, skipping
+    candles already on disk, skipping
+[kalshi 4/15] POL-4 PRESPARTYSD-24-D
+    trades already on disk, skipping
+    candles already on disk, skipping
+[kalshi 5/15] POL-5 PRESPARTYND-24-R
+    trades already on disk, skipping
+    candles already on disk, skipping
+[kalshi 6/15] ECO-1 KXU3-25NOV-T4.2
+    trades already on disk, skipping
+    candles already on disk, skipping
+[kalshi 7/15] ECO-2 KXU3-25SEP-T3.8
+    trades already on disk, skipping
+    candles already on disk, skipping
+[kalshi 8/15] ECO-3 PAYROLLS-24MAR-T150000
+    trades already on disk, skipping
+    candles already on disk, skipping
+[kalshi 9/15] ECO-4 KXU3-26JUN-T4.6
+    trades already on disk, skipping
+    candles already on disk, skipping
+[kalshi 10/15] ECO-5 KXPAYROLLS-25JUL-T300000
+    trades already on disk, skipping
+    candles already on disk, skipping
+[kalshi 11/15] SPO-1 KXMLB-25-CLE
+    trades: 870 (historical 870, live 0)
+    candles: 3468
+[kalshi 12/15] SPO-2 KXNHL-26-DET
+    trades: 1349 (historical 1349, live 0)
+    candles: 4183
+[kalshi 13/15] SPO-3 KXNHL-26-FLA
+    trades: 2162 (historical 2162, live 0)
+    candles: 4151
+[kalshi 14/15] SPO-4 KXNHL-25-NYR
+    trades: 69 (historical 69, live 0)
+    candles: 134
+[kalshi 15/15] SPO-5 KXWNBA-25-CON
+    trades: 13 (historical 13, live 0)
+    candles: 3608
+Wrote 15 Kalshi markets -> /Users/bradywilliams/Developer/curo2627/pulling_data/data_kalshi/markets.csv
+
+Done.

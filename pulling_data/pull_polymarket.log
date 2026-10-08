@@ -1,0 +1,80 @@
+Pulling 15 paired markets (polymarket)
+
+[polymarket 1/15] POL-1 will-a-republican-win-alaska-in-the-2024-us-presidential-election
+    trades already on disk, skipping
+    prices Yes already on disk, skipping
+    prices No already on disk, skipping
+    spread already on disk, skipping
+[polymarket 2/15] POL-2 will-a-republican-win-rhode-island-in-the-2024-us-presidential-election
+    trades already on disk, skipping
+    prices Yes already on disk, skipping
+    prices No already on disk, skipping
+    spread already on disk, skipping
+[polymarket 3/15] POL-3 will-a-democrat-win-nebraska-in-the-2024-us-presidential-election
+    trades already on disk, skipping
+    prices Yes already on disk, skipping
+    prices No already on disk, skipping
+    spread already on disk, skipping
+[polymarket 4/15] POL-4 will-a-democrat-win-south-dakota-in-the-2024-us-presidential-election
+    trades already on disk, skipping
+    prices Yes already on disk, skipping
+    prices No already on disk, skipping
+    spread already on disk, skipping
+[polymarket 5/15] POL-5 will-a-republican-win-north-dakota-in-the-2024-us-presidential-election
+    trades already on disk, skipping
+    prices Yes already on disk, skipping
+    prices No already on disk, skipping
+    spread already on disk, skipping
+[polymarket 6/15] ECO-1 will-the-november-2025-unemployment-rate-be-4pt4
+    trades already on disk, skipping
+    prices Yes already on disk, skipping
+    prices No already on disk, skipping
+    spread already on disk, skipping
+[polymarket 7/15] ECO-2 will-the-september-2025-unemployment-rate-be-4pt1
+    trades already on disk, skipping
+    prices Yes already on disk, skipping
+    prices No already on disk, skipping
+    spread already on disk, skipping
+[polymarket 8/15] ECO-3 will-us-gain-between-200k-and-275k-jobs-in-march
+    trades already on disk, skipping
+    prices Yes already on disk, skipping
+    prices No already on disk, skipping
+    spread already on disk, skipping
+[polymarket 9/15] ECO-4 will-the-june-2026-unemployment-rate-be-4pt6
+    trades already on disk, skipping
+    prices Yes already on disk, skipping
+    prices No already on disk, skipping
+    spread already on disk, skipping
+[polymarket 10/15] ECO-5 will-the-us-add-between-150k-and-200k-jobs-in-july
+    trades already on disk, skipping
+    prices Yes already on disk, skipping
+    prices No already on disk, skipping
+    spread already on disk, skipping
+[polymarket 11/15] SPO-1 will-the-cleveland-guardians-win-the-2025-world-series
+    trades: 10439
+    prices Yes: 5239
+    prices No: 5239
+    heuristic spread hours: 5237
+[polymarket 12/15] SPO-2 will-the-detroit-red-wings-win-the-2026-nhl-stanley-cup
+    trades: 18565
+    prices Yes: 6652
+    prices No: 6800
+    heuristic spread hours: 6722
+[polymarket 13/15] SPO-3 will-the-florida-panthers-win-the-2026-nhl-stanley-cup
+    trades: 20208
+    prices Yes: 6687
+    prices No: 6805
+    heuristic spread hours: 6710
+[polymarket 14/15] SPO-4 will-the-new-york-rangers-win-the-2025-stanley-cup
+    trades: 6801
+    prices Yes: 4474
+    prices No: 4474
+    heuristic spread hours: 4474
+[polymarket 15/15] SPO-5 will-the-connecticut-sun-win-the-2025-wnba-championship
+    trades: 138
+    prices Yes: 2387
+    prices No: 2387
+    heuristic spread hours: 2386
+Wrote 15 Polymarket markets -> /Users/bradywilliams/Developer/curo2627/pulling_data/data_polymarket/markets.csv
+
+Done.

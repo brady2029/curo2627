@@ -1,0 +1,49 @@
+political: 4234 series in random order
+economic: 824 series in random order
+sports: 3805 series in random order
+wave 1 political: +51 markets
+  political median frozen at 13855
+  kept high KXSENATEALR-26-JHUD
+    K Will Jared Hudson be the Republican nominee for the Senate in Alabama?
+    P Will Jared Hudson be the Republican nominee for Senate in Alabama?
+  kept high KXSENATELAD-26-GCRO
+    K Will Gary Crockett be the Democratic nominee for the Senate in Louisiana?
+    P Will Gary Crockett be the Democratic nominee for Senate in Louisiana?
+  kept high KXSENATELAD-26-JDAV
+    K Will Jamie Davis be the Democratic nominee for the Senate in Louisiana?
+    P Will Jamie Davis Jr. be the Democratic nominee for Senate in Louisiana?
+  kept low KXSENATELAD-26-NALB
+    K Will Nick Albares be the Democratic nominee for the Senate in Louisiana?
+    P Will Nick Albares be the Democratic nominee for Senate in Louisiana?
+  kept low KXGOVMENOMR-26-JLIB
+    K Will James Libby be the Republican nominee for Governor in Maine?
+    P Will James Libby win the 2026 Maine Governor Republican primary election?
+wave 1 economic: +56 markets
+  economic median frozen at 4651
+wave 1 sports: +109 markets
+  sports median frozen at 5176
+  kept high KXSTARLADDERBUDAPESTMAJOR-STAR25-AUR
+    K Will Aurora win the StarLadder Budapest Major 2025?
+    P Will Aurora Gaming win the StarLadder Budapest Major 2025?
+  kept high KXSTARLADDERBUDAPESTMAJOR-STAR25-FAL
+    K Will Team Falcons win the StarLadder Budapest Major 2025?
+    P Will Team Falcons win the StarLadder Budapest Major 2025?
+  kept high KXSTARLADDERBUDAPESTMAJOR-STAR25-FAZ
+    K Will FaZe win the StarLadder Budapest Major 2025?
+    P Will FaZe Clan win the StarLadder Budapest Major 2025?
+  kept low KXWOBIATH-MRELAY26MEDAL-SWE
+    K Will Sweden win any medal in Biathlon Men's 4 x 7.5 km relay?
+    P Will Sweden win the gold medal for Winter Olympics 2026: Biathlon - Men's 4 X 7.5km Relay at the 2026 Milano Cortina Winter Olympics?
+  [retry] 429 on /markets, waiting 1s (attempt 1)
+wave 2 economic: +65 markets
+  kept low KXECONSTATCPIYOY-26AUG-T3.7
+    K CPI year-over-year in Aug 2026?
+    P Will China’s CPI increase by ≤0.2% over the 12 month period ending in August 2026?
+wave 2 sports: +97 markets
+wave 3 economic: +61 markets
+wave 3 sports: +116 markets
+  kept low KXAFCONADVANCE-26JAN03MLITUN-MLI
+    K Mali vs Tunisia
+    P Will Mali vs. Tunisia end in a draw?
+  [retry] 429 on /markets, waiting 1s (attempt 1)
+wave 4 economic: +71 markets

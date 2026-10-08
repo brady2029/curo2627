@@ -1,0 +1,301 @@
+{
+  "procedure": {
+    "seed": 42,
+    "max_kalshi_volume": 15000000,
+    "max_polymarket_volume": 5000000,
+    "rule": "Both platforms, each Polymarket contract used once, Kalshi volume at most 15 million contracts and Polymarket volume at most 5 million dollars. Political: party, state, and year agree. Sports: championship-winner markets, team name and championship year agree, then the same seed-42 split (3 above the category median, 2 at or below). Economic: same unemployment or payrolls month, smallest listed bucket on each side, same seed-42 split.",
+    "sports_pool": 89,
+    "sports_median_kalshi_volume": 355045.0
+  },
+  "polymarket_spread": {
+    "method": "effective_spread",
+    "formula": "2 * abs(trade_price - outcome_midpoint_in_the_same_hour)"
+  },
+  "markets": [
+    {
+      "category": "political",
+      "kalshi_volume": 406640.0,
+      "poly_volume": 796279.059822,
+      "question_match": "name_in_question",
+      "kalshi": {
+        "ticker": "PRESPARTYAK-24-R",
+        "series_ticker": "PRESPARTYAK",
+        "question": "Will the Republican party win Alaska in the presidential election?"
+      },
+      "polymarket": {
+        "slug": "will-a-republican-win-alaska-in-the-2024-us-presidential-election",
+        "question": "Will a Republican win Alaska Presidential Election?"
+      },
+      "sample_id": "POL-1",
+      "activity": "high",
+      "event": "Will the Republican party win Alaska in the presidential election?",
+      "match_note": "Seed 42. Both platforms, Polymarket volume at most 5 million dollars. Sports and politics keep a market only when the year in the two questions agrees. Three above the category median Kalshi volume and two at or below."
+    },
+    {
+      "category": "political",
+      "kalshi_volume": 88719.0,
+      "poly_volume": 102536.856439,
+      "question_match": "name_in_question",
+      "kalshi": {
+        "ticker": "PRESPARTYRI-24-R",
+        "series_ticker": "PRESPARTYRI",
+        "question": "Will the Republican party win Rhode Island in the presidential election?"
+      },
+      "polymarket": {
+        "slug": "will-a-republican-win-rhode-island-in-the-2024-us-presidential-election",
+        "question": "Will a Republican win Rhode Island Presidential Election?"
+      },
+      "sample_id": "POL-2",
+      "activity": "high",
+      "event": "Will the Republican party win Rhode Island in the presidential election?",
+      "match_note": "Seed 42. Both platforms, Polymarket volume at most 5 million dollars. Sports and politics keep a market only when the year in the two questions agrees. Three above the category median Kalshi volume and two at or below."
+    },
+    {
+      "category": "political",
+      "kalshi_volume": 81205.0,
+      "poly_volume": 102474.08709,
+      "question_match": "name_in_question",
+      "kalshi": {
+        "ticker": "PRESPARTYNE-24-D",
+        "series_ticker": "PRESPARTYNE",
+        "question": "Will the Democratic party win Nebraska in the presidential election?"
+      },
+      "polymarket": {
+        "slug": "will-a-democrat-win-nebraska-in-the-2024-us-presidential-election",
+        "question": "Will a Democrat win Nebraska Presidential Election?"
+      },
+      "sample_id": "POL-3",
+      "activity": "high",
+      "event": "Will the Democratic party win Nebraska in the presidential election?",
+      "match_note": "Seed 42. Both platforms, Polymarket volume at most 5 million dollars. Sports and politics keep a market only when the year in the two questions agrees. Three above the category median Kalshi volume and two at or below."
+    },
+    {
+      "category": "political",
+      "kalshi_volume": 16829.0,
+      "poly_volume": 213694.618558,
+      "question_match": "name_in_question",
+      "kalshi": {
+        "ticker": "PRESPARTYSD-24-D",
+        "series_ticker": "PRESPARTYSD",
+        "question": "Will the Democratic party win South Dakota in the presidential election?"
+      },
+      "polymarket": {
+        "slug": "will-a-democrat-win-south-dakota-in-the-2024-us-presidential-election",
+        "question": "Will a Democrat win South Dakota Presidential Election?"
+      },
+      "sample_id": "POL-4",
+      "activity": "low",
+      "event": "Will the Democratic party win South Dakota in the presidential election?",
+      "match_note": "Seed 42. Both platforms, Polymarket volume at most 5 million dollars. Sports and politics keep a market only when the year in the two questions agrees. Three above the category median Kalshi volume and two at or below."
+    },
+    {
+      "category": "political",
+      "kalshi_volume": 13377.0,
+      "poly_volume": 303208.802688,
+      "question_match": "name_in_question",
+      "kalshi": {
+        "ticker": "PRESPARTYND-24-R",
+        "series_ticker": "PRESPARTYND",
+        "question": "Will the Republican party win North Dakota in the presidential election?"
+      },
+      "polymarket": {
+        "slug": "will-a-republican-win-north-dakota-in-the-2024-us-presidential-election",
+        "question": "Will a Republican win North Dakota Presidential Election?"
+      },
+      "sample_id": "POL-5",
+      "activity": "low",
+      "event": "Will the Republican party win North Dakota in the presidential election?",
+      "match_note": "Seed 42. Both platforms, Polymarket volume at most 5 million dollars. Sports and politics keep a market only when the year in the two questions agrees. Three above the category median Kalshi volume and two at or below."
+    },
+    {
+      "category": "economic",
+      "kalshi_volume": 7832.0,
+      "poly_volume": 18065.74077,
+      "question_match": "same_month_unemployment_smallest_bucket",
+      "kalshi": {
+        "ticker": "KXU3-25NOV-T4.2",
+        "series_ticker": "KXU3",
+        "question": "Will the unemployment rate (U-3) be above 4.2% in November?"
+      },
+      "polymarket": {
+        "slug": "will-the-november-2025-unemployment-rate-be-4pt4",
+        "question": "Will the November 2025 unemployment rate be 4.4%?"
+      },
+      "sample_id": "ECO-1",
+      "activity": "high",
+      "event": "Will the unemployment rate (U-3) be above 4.2% in November?",
+      "match_note": "Seed 42. Both platforms, Polymarket volume at most 5 million dollars. Sports and politics keep a market only when the year in the two questions agrees. Three above the category median Kalshi volume and two at or below."
+    },
+    {
+      "category": "economic",
+      "kalshi_volume": 5157.0,
+      "poly_volume": 34218.128892,
+      "question_match": "same_month_unemployment_smallest_bucket",
+      "kalshi": {
+        "ticker": "KXU3-25SEP-T3.8",
+        "series_ticker": "KXU3",
+        "question": "Will the unemployment rate (U-3) be above 3.8% in September?"
+      },
+      "polymarket": {
+        "slug": "will-the-september-2025-unemployment-rate-be-4pt1",
+        "question": "Will the September 2025 unemployment rate be 4.1%?"
+      },
+      "sample_id": "ECO-2",
+      "activity": "high",
+      "event": "Will the unemployment rate (U-3) be above 3.8% in September?",
+      "match_note": "Seed 42. Both platforms, Polymarket volume at most 5 million dollars. Sports and politics keep a market only when the year in the two questions agrees. Three above the category median Kalshi volume and two at or below."
+    },
+    {
+      "category": "economic",
+      "kalshi_volume": 8683.0,
+      "poly_volume": 12529.62,
+      "question_match": "same_month_payrolls_smallest_bucket",
+      "kalshi": {
+        "ticker": "PAYROLLS-24MAR-T150000",
+        "series_ticker": "PAYROLLS",
+        "question": "Will above 150000 jobs be added in March 2024?"
+      },
+      "polymarket": {
+        "slug": "will-us-gain-between-200k-and-275k-jobs-in-march",
+        "question": "Will US gain between 200k and 275k jobs in March?"
+      },
+      "sample_id": "ECO-3",
+      "activity": "high",
+      "event": "Will above 150000 jobs be added in March 2024?",
+      "match_note": "Seed 42. Both platforms, Polymarket volume at most 5 million dollars. Sports and politics keep a market only when the year in the two questions agrees. Three above the category median Kalshi volume and two at or below."
+    },
+    {
+      "category": "economic",
+      "kalshi_volume": 1701.43,
+      "poly_volume": 602.469911,
+      "question_match": "same_month_unemployment_smallest_bucket",
+      "kalshi": {
+        "ticker": "KXU3-26JUN-T4.6",
+        "series_ticker": "KXU3",
+        "question": "Will the unemployment rate (U-3) be above 4.6% in June?"
+      },
+      "polymarket": {
+        "slug": "will-the-june-2026-unemployment-rate-be-4pt6",
+        "question": "Will the June 2026 unemployment rate be 4.6%?"
+      },
+      "sample_id": "ECO-4",
+      "activity": "low",
+      "event": "Will the unemployment rate (U-3) be above 4.6% in June?",
+      "match_note": "Seed 42. Both platforms, Polymarket volume at most 5 million dollars. Sports and politics keep a market only when the year in the two questions agrees. Three above the category median Kalshi volume and two at or below."
+    },
+    {
+      "category": "economic",
+      "kalshi_volume": 1544.0,
+      "poly_volume": 15152.192019,
+      "question_match": "same_month_payrolls_smallest_bucket",
+      "kalshi": {
+        "ticker": "KXPAYROLLS-25JUL-T300000",
+        "series_ticker": "KXPAYROLLS",
+        "question": "Will above 300000 jobs be added in July 2025?"
+      },
+      "polymarket": {
+        "slug": "will-the-us-add-between-150k-and-200k-jobs-in-july",
+        "question": "Will the US add between 150k and 200k jobs in July?"
+      },
+      "sample_id": "ECO-5",
+      "activity": "low",
+      "event": "Will above 300000 jobs be added in July 2025?",
+      "match_note": "Seed 42. Both platforms, Polymarket volume at most 5 million dollars. Sports and politics keep a market only when the year in the two questions agrees. Three above the category median Kalshi volume and two at or below."
+    },
+    {
+      "kalshi_volume": 664558.0,
+      "poly_volume": 1707093.185591,
+      "kalshi": {
+        "ticker": "KXMLB-25-CLE",
+        "series_ticker": "KXMLB",
+        "question": "Will the Cleveland win the Pro Baseball Championship?"
+      },
+      "polymarket": {
+        "slug": "will-the-cleveland-guardians-win-the-2025-world-series",
+        "question": "Will the Cleveland Guardians win the 2025 World Series?"
+      },
+      "sample_id": "SPO-1",
+      "category": "sports",
+      "activity": "high",
+      "event": "Will the Cleveland win the Pro Baseball Championship?",
+      "question_match": "name_in_question",
+      "match_note": "Seed 42. Same rule as the political markets: both platforms, volume at most 15 million Kalshi contracts and 5 million Polymarket dollars, team name and championship year agree. Pool of 89 championship-winner markets. High is above the pool median of 355045 contracts; low is at or below."
+    },
+    {
+      "kalshi_volume": 518481.0,
+      "poly_volume": 1266491.719208001,
+      "kalshi": {
+        "ticker": "KXNHL-26-DET",
+        "series_ticker": "KXNHL",
+        "question": "Will Detroit Red Wings win the 2025-26 Stanley Cup Finals?"
+      },
+      "polymarket": {
+        "slug": "will-the-detroit-red-wings-win-the-2026-nhl-stanley-cup",
+        "question": "Will the Detroit Red Wings win the 2026 NHL Stanley Cup?"
+      },
+      "sample_id": "SPO-2",
+      "category": "sports",
+      "activity": "high",
+      "event": "Will Detroit Red Wings win the 2025-26 Stanley Cup Finals?",
+      "question_match": "name_in_question",
+      "match_note": "Seed 42. Same rule as the political markets: both platforms, volume at most 15 million Kalshi contracts and 5 million Polymarket dollars, team name and championship year agree. Pool of 89 championship-winner markets. High is above the pool median of 355045 contracts; low is at or below."
+    },
+    {
+      "kalshi_volume": 696395.0,
+      "poly_volume": 1621897.9388059953,
+      "kalshi": {
+        "ticker": "KXNHL-26-FLA",
+        "series_ticker": "KXNHL",
+        "question": "Will Florida Panthers win the 2025-26 Stanley Cup Finals?"
+      },
+      "polymarket": {
+        "slug": "will-the-florida-panthers-win-the-2026-nhl-stanley-cup",
+        "question": "Will the Florida Panthers win the 2026 NHL Stanley Cup?"
+      },
+      "sample_id": "SPO-3",
+      "category": "sports",
+      "activity": "high",
+      "event": "Will Florida Panthers win the 2025-26 Stanley Cup Finals?",
+      "question_match": "name_in_question",
+      "match_note": "Seed 42. Same rule as the political markets: both platforms, volume at most 15 million Kalshi contracts and 5 million Polymarket dollars, team name and championship year agree. Pool of 89 championship-winner markets. High is above the pool median of 355045 contracts; low is at or below."
+    },
+    {
+      "kalshi_volume": 34554.0,
+      "poly_volume": 1317996.184151,
+      "kalshi": {
+        "ticker": "KXNHL-25-NYR",
+        "series_ticker": "KXNHL",
+        "question": "Will the New York Rangers win the Stanley Cup Finals?"
+      },
+      "polymarket": {
+        "slug": "will-the-new-york-rangers-win-the-2025-stanley-cup",
+        "question": "Will the New York Rangers win the 2025 Stanley Cup?"
+      },
+      "sample_id": "SPO-4",
+      "category": "sports",
+      "activity": "low",
+      "event": "Will the New York Rangers win the Stanley Cup Finals?",
+      "question_match": "name_in_question",
+      "match_note": "Seed 42. Same rule as the political markets: both platforms, volume at most 15 million Kalshi contracts and 5 million Polymarket dollars, team name and championship year agree. Pool of 89 championship-winner markets. High is above the pool median of 355045 contracts; low is at or below."
+    },
+    {
+      "kalshi_volume": 912.0,
+      "poly_volume": 14097.863074,
+      "kalshi": {
+        "ticker": "KXWNBA-25-CON",
+        "series_ticker": "KXWNBA",
+        "question": "Will the Connecticut win the Pro Women's Basketball Championship?"
+      },
+      "polymarket": {
+        "slug": "will-the-connecticut-sun-win-the-2025-wnba-championship",
+        "question": "Will the Connecticut Sun win the 2025 WNBA Championship?"
+      },
+      "sample_id": "SPO-5",
+      "category": "sports",
+      "activity": "low",
+      "event": "Will the Connecticut win the Pro Women's Basketball Championship?",
+      "question_match": "name_in_question",
+      "match_note": "Seed 42. Same rule as the political markets: both platforms, volume at most 15 million Kalshi contracts and 5 million Polymarket dollars, team name and championship year agree. Pool of 89 championship-winner markets. High is above the pool median of 355045 contracts; low is at or below."
+    }
+  ]
+}
